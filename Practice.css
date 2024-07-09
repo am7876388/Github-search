@@ -1,0 +1,218 @@
+html{
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 6.47rem;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgb(151,197,131);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    border-bottom: solid 1px gray;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
+}
+ul{
+    list-style-type: none;
+}
+i{
+font-size: 25px;
+}
+ul li{
+    display: inline-block;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+#Submit{
+    width: 60px;
+    height: 33px;
+}
+#Inside{
+    margin-left: 200px;
+}
+#Inside li{
+    display: block;
+    padding: 0;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+#Input{
+    margin-right: 150px;
+    margin-top: 15px;
+    float: right;
+}
+#Label{
+    margin-bottom: 10px;
+    font-size: 27px;
+    font-weight: bold;
+}
+h2{
+    margin-left: 10px;
+    height: fit-content;
+}
+.data{
+    height: 220px;
+    width: 500px;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.data img{
+    width: 40%;
+    height: 100%;
+    border-radius: 5px;
+}
+.data h2{
+    width: 50%;
+}
+.numbers {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#Followers,#Following,#Repos{
+    font-size: 30px;
+    margin-bottom: 15px;
+    width: calc(100%/3);
+    height: 50%;
+    text-align: center;
+}
+.numbers_data{
+    text-align: center;
+    margin: 0;
+    width: calc(100%/3);
+    height: 50%;
+}
+.tags:hover{
+    cursor: pointer;
+}
+.Repository{
+    position: absolute;
+    top: 400px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+.name{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.description+.language{
+    margin-top: 20px;
+}
+hr{
+    margin-top: 10px;
+    width: 100%;
+}
+.Follower-data{
+    margin-top: 30px;
+}
+.Followers-name h2{
+    position: absolute;
+    top: 80px;
+    left: -10px;
+}
+.Follower-data label{
+    position: relative;
+    bottom: 85px;
+    font-size: 20px;
+    left: 10px;
+}
+.Follower-data hr{
+    width: 35%;
+}
+.Followers-name{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 850px;
+    top: 30px;
+}
+.Follow{
+    width: 100px;
+    height: 100px;
+}
+#founds{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#founds h2{
+    background-color: rgb(252,248,187);
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 400;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user_data{
+height: 12.5%;
+padding-top: 20px;
+width: calc(100%/3);
+}
+.user_data img{
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+.user_data label{
+    position: relative;
+    font-size: 20px;
+    bottom: 70px;
+    left: 10px;
+}
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+footer button{
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+}
+i{
+    font-size: 30px;
+    font-weight: 300;
+}
+#Next{
+    position: absolute;
+    left: 1130px;
+}
+#Previous{
+    position: absolute;
+    left: 90px;
+}
+i:hover{
+    color: rgb(151,197,131);
+    cursor: pointer;
+}
